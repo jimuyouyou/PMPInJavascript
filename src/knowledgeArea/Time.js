@@ -1,6 +1,13 @@
 'use strict'
 class Time {
-	planScheduleManagement(){}
+	planScheduleManagement(){
+		return {
+			name: 'planScheduleManagement',
+			inputs: {},
+			toolsAndTechniches: {},
+			outputs: {}
+		}
+	}
 	defineActivities(){}
 	sequenceActivities(){}
 	estimateActivityResources(){}
